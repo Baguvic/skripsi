@@ -1,0 +1,74 @@
+:root {
+  --primary: #809855;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+.back {
+  height: 100vh;
+  padding: 1rem;
+}
+.admin .sidebar {
+  background-color: #ffffff;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.admin .top img {
+  width: 7rem;
+}
+.admin .top h3 {
+  font-family: "Peralta";
+  font-size: 1.3rem;
+  color: #fff;
+}
+.admin .top {
+  background-color: #809855;
+  padding: 1rem;
+}
+.admin .mid {
+  padding: 3rem 0;
+}
+.admin .mid h3 {
+  font-size: 1.5rem;
+  color: #77b901;
+}
+.admin .mid h3::after {
+  content: "";
+  border-bottom: 0.2rem solid #77b90180;
+  padding-bottom: 0.3rem;
+  display: block;
+}
+.admin .mid .menu li {
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.admin .mid .menu li img {
+  margin-right: 1rem;
+  width: 2rem;
+}
+.admin .mid .menu li a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.admin .bot {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 2rem;
+  justify-content: center;
+}
+.admin .bot a {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.admin .bot a img {
+  margin-right: 0.7rem;
+  width: 2rem;
+}
+.nice {
+  background-color: bisque;
+}
